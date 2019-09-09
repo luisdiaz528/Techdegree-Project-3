@@ -243,9 +243,13 @@ footer p {
 /* Media Query Desktop Form */
 
 @media screen and (min-width: 768px) {
+    .container {
+    max-width: 50%;
+    margin: auto;
+    }
 
     legend {
-    font-size: 1.7em;
+    font-size: 18px;
     font-weight: 900;
     padding: 20px 0;
     }
@@ -261,22 +265,24 @@ footer p {
     #phone,
     #address,
     #city {
-        width: 67%;
+        width: 54%;
     }
 
     .section-2 label {
-        font-size: 1.2em;
+        font-size: 1em;
         height: 61px;
         position: absolute;
         bottom: 0;
     }
 
-    #state {
-        width: 72%;
+    .user-info #state {
+        width: 54%;
+        box-sizing: content-box;
+
     }
 
     .user-info #zip {
-        margin-right: 47%;
+        margin-right: 34%;
         width: 20%;
     }
 
