@@ -87,7 +87,9 @@ input::placeholder {
     border: none;
     background: rgb(238, 235, 235);
     padding: 16px;
-    width: 99%;
+    width: 90%;
+    box-sizing: content-box;
+
 }
 
 #zip{
